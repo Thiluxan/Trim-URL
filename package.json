@@ -1,0 +1,18 @@
+{
+  "name": "cloud_assignment",
+  "version": "1.0.0",
+  "description": "A simple url shortener application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1261.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
